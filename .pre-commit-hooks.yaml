@@ -1,5 +1,5 @@
 -   id: clang-format-diff
-    name: clang-format
+    name: 'clang-format'
     description: ''
     entry: sh -c 'git diff -U0 --no-color --relative HEAD^ | clang-format-diff.py -p1 -i'
     language: python
